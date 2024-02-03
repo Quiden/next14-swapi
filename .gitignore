@@ -34,3 +34,19 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# api
+**/api-types.ts
+**/__generated__
+**/schema.graphql
+
+# Android/IntelliJ
+build/
+.idea/
+.gradle
+local.properties
+*.iml
+*.hprof
+.cxx/
+*.keystore
+!debug.keystore
